@@ -1,0 +1,30 @@
+AI FIRE DETECTION SYSTEM
+RANDOM FOREST TRAINING RESULTS
+============================================================
+
+Dataset: D:\CN Fire_Detection_system_project\AI-Fire-Detection-System\ai\dataset\fire_data.csv
+Rows used: 5001
+Features: ['temperature', 'humidity', 'gas', 'flame']
+Target: label
+Classes: ['Normal', 'Warning', 'Critical']
+Test accuracy: 95.70%
+5-fold CV accuracy: 95.86% +/- 0.72%
+
+Classification Report
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+      Normal       0.95      0.97      0.96       334
+     Warning       0.94      0.93      0.94       334
+    Critical       0.98      0.97      0.98       333
+
+    accuracy                           0.96      1001
+   macro avg       0.96      0.96      0.96      1001
+weighted avg       0.96      0.96      0.96      1001
+
+Feature Importance
+------------------------------------------------------------
+gas: 0.452866
+temperature: 0.371482
+flame: 0.111284
+humidity: 0.064368
